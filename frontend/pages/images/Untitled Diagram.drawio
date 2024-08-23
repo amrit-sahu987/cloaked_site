@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.7">
+  <diagram name="Page-1" id="gsF68JaWRqBPeV5tJFq-">
+    <mxGraphModel dx="852" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jK9HHNvisakAEsY_TNgf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#FF0000;strokeColor=#FF0000;" parent="1" source="jK9HHNvisakAEsY_TNgf-1" target="jK9HHNvisakAEsY_TNgf-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jK9HHNvisakAEsY_TNgf-1" target="jK9HHNvisakAEsY_TNgf-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-1" value="User enters website" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="336" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jK9HHNvisakAEsY_TNgf-2" target="jK9HHNvisakAEsY_TNgf-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jK9HHNvisakAEsY_TNgf-2" target="jK9HHNvisakAEsY_TNgf-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Is the users IP&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;or&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user-agent of&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;known authority&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="340" width="135" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="1" source="jK9HHNvisakAEsY_TNgf-7" target="jK9HHNvisakAEsY_TNgf-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-7" value="Fetch users IP address" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="275" y="140" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="1" source="jK9HHNvisakAEsY_TNgf-8" target="jK9HHNvisakAEsY_TNgf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-8" value="Send IP address to backend from frontend" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="275" y="230" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-14" value="Fetch user-agent information&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="393" y="140" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-17" value="Fetched in front-end" style="text;strokeColor=#FF0000;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="250" y="130" width="25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-22" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="485" y="130" width="25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-24" value="Fetched in back-end" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jK9HHNvisakAEsY_TNgf-14" target="jK9HHNvisakAEsY_TNgf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-31" value="Return the @app.route address for the malicious site" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-32" value="Return the @app.route address for the cloaked safe site" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="473" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-38" value="Yes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="486" y="379" width="32.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jK9HHNvisakAEsY_TNgf-40" value="No" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="379" width="32.5" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

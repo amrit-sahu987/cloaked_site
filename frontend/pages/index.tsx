@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import diagram from './images/Untitled-Diagram.png';
+import { SpinningCircles } from 'react-loading-icons'
 
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -10,8 +12,13 @@ function index() {
   const [loading, setLoading] = useState(true);
 
   const Loading = () => (
-    <div>
+    <div className="Loading-page">
+      <div className="App-header">
         <h1>Loading...</h1>
+      </div>
+      <div className="App-logo">
+        <SpinningCircles stroke="#000000" fill="#000000" speed={1.0} />
+      </div>  
     </div>
   );
 
@@ -100,8 +107,10 @@ function index() {
     //cloaked page
     return (
       <div>
-        <h1>Cloaked</h1>
-    </div>
+        <div className="App-header">
+          <h1>You have been cloaked!</h1>
+        </div>
+      </div>
     );
   } else {
     //login page
